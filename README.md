@@ -118,7 +118,7 @@ To create a new Hugo site with this theme as Git submodule, run the following co
 Then, clone this repository into the `themes` directory of your new site:
 
     cd myblog
-    git clone https://github.com/BiosPlus/hugo-blog-extended.git themes/hugo-blog-extended
+    git submodule add https://github.com/BiosPlus/hugo-blog-extended.git themes/hugo-blog-extended
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
