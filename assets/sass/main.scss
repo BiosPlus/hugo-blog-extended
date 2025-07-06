@@ -17,7 +17,7 @@ $gray: #6b7886;
 $white: #fff;
 
 //////////////// 2. Dark Colors /////////////////
-$dark-text-base-color: #babdc4;
+$dark-text-base-color: #e6e6e6;
 $dark-text-link-blue: #77a8fd;
 $dark-text-link-blue-active: #5292ff;
 $dark-bloquote-border: #4a4d56;
@@ -35,8 +35,9 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
 //////////////// 3. Fonts preferences /////////////////
-$sans-family: Roboto, sans-serif;
-$mono-family: Consolas, monospace;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+$sans-family: Noto Sans, sans-serif;
+$mono-family: Fira Code, monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
@@ -49,8 +50,8 @@ $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
-$wide-size: 1920px;
-$narrow-size: 1280px;
+$wide-size: 1200px;
+$narrow-size: 1200px;
 
 // Padding unit
 $spacing-full: 30px;
