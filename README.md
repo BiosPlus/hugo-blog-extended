@@ -6,7 +6,7 @@
 </picture>
 
 </div>
-<h1 align=center> Hugo Blog Extended | <a href="https://hugo-blog-extended.pages.dev/" target="_blank" rel="nofollow">Demo link</a></h1>
+<h1 align=center> Hugo Blog Extended | <a href="https://hbe-example.pages.dev/" target="_blank" rel="nofollow">Demo link</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
@@ -29,12 +29,6 @@ git clone https://github.com/BiosPlus/hugo-blog-extended.git && cd hugo-blog-ext
 ```
 
 Then visit `http://localhost:1313` to see the magic! ✨
-
-## Screenshots
-
-| Dark mode | Light mode |
-| --- | --- |
-| ![Dark mode](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/light.png) |
 
 <details>
   <summary>Page speed score (click to expand)</summary>
