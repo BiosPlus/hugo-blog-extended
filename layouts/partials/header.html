@@ -3,7 +3,7 @@
         <a href="{{ .Site.Home.Permalink }}" class="logo">
             {{ partial "svgs/home.svg" (dict "height" 25 "width" 25) . }}
         </a>
-        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-label="Toggle menu" />
         <label for="menu-trigger">
             <span class="menu-icon">
                 {{ partial "svgs/menu.svg" (dict "height" 25 "width" 25) . }}
@@ -63,7 +63,7 @@
                     </li>
                 {{ end }}
             </ul>
-            <a id="mode" href="#">
+            <a id="mode" href="#" role="button" aria-label="Toggle dark mode">
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-sunny" "title" "LIGHT") . }}
                 {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-moon" "title" "DARK") . }}
             </a>

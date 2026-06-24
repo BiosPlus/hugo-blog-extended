@@ -61,7 +61,7 @@
         // Theme switch
         const lamp = document.getElementById("mode");
 
-        lamp.addEventListener("click", () => toggleTheme());
+        lamp.addEventListener("click", (e) => { e.preventDefault(); toggleTheme(); });
 
         // Blur the content when the menu is open
         const cbox = document.getElementById("menu-trigger");
